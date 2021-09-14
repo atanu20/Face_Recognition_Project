@@ -1,7 +1,6 @@
 import cv2
 import face_recognition
 
-
 imgone=face_recognition.load_image_file('img/known/Michael Jordan.jpg')
 imgone=cv2.cvtColor(imgone,cv2.COLOR_BGR2RGB)
 oneloc=face_recognition.face_locations(imgone)[0]
